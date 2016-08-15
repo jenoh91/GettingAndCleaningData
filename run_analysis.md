@@ -46,3 +46,8 @@ Good luck!
         x_train <- read.table("UCI HAR Dataset/train/X_train.txt")
         y_train <- read.table("UCI HAR Dataset/train/y_train.txt")
         subject_train <- read.table("UCI HAR Dataset/train/subject_train.txt")
+        
+        #Merge data sets
+        X <- rbind(x_test, x_train)
+        Y <- rbind(y_test, y_train)
+        subject <- rbind(subject_test, subject_train)
