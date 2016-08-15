@@ -51,3 +51,11 @@ Good luck!
         X <- rbind(x_test, x_train)
         Y <- rbind(y_test, y_train)
         subject <- rbind(subject_test, subject_train)
+        
+
+        > dim(X)
+        [1] 10299    66
+        > dim(Y)
+        [1] 10299     1
+        > dim(subject)
+        [1] 10299     1
