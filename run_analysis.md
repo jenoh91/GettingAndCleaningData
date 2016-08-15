@@ -59,3 +59,6 @@ Good luck!
         [1] 10299     1
         > dim(subject)
         [1] 10299     1
+
+2. Extracts only the measurements on the mean and standard deviation for each measurement.
+
