@@ -62,3 +62,11 @@ Good luck!
 
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
 
+                                read features
+features <- read.table("UCI HAR Dataset/features.txt")
+
+#getting indices for mean and std
+index <- grep("mean\\(\\)|std\\(\\)", features[,2])
+
+X <- X[,index]
+
